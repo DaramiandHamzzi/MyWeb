@@ -12,7 +12,7 @@ function HomePage() {
       <h1
         style={{ fontFamily: '"Brush Script MT", cursive', color: '#4b9be1' }}
       >
-        Hamsters's website
+        {`Hamsters's website`}
       </h1>
       <h2
         style={{
