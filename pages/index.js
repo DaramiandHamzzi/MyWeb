@@ -10,14 +10,14 @@ function HomePage() {
       }}
     >
       <h1
-        style={{ fontFamily: '"Brush Script MT", cursive', color: '#4b9be1' }}
+        style={{ fontFamily: '"Brush Script MT", cursive', color: 'purple' }}
       >
         {`Hamsters's website`}
       </h1>
       <h2
         style={{
           fontFamily: 'cursive',
-          color: 'rgb(243, 103, 123)',
+          color: 'lime',
           marginBottom: '10rem'
         }}
       >
@@ -28,7 +28,7 @@ function HomePage() {
           fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'blue',
+          background: 'orange',
           color: 'white'
         }}
         onClick={() => alert('Hello there')}
@@ -40,7 +40,7 @@ function HomePage() {
           fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'orange',
+          background: 'pink',
           color: 'white',
           marginTop: '2rem'
         }}
