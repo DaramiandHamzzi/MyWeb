@@ -45,7 +45,7 @@ function HomePage() {
           marginTop: '2rem'
         }}
         onClick={() => {
-          let name = prompt("Please write your name here:");
+          let name = prompt("What's your name?");
           if (name) {
             alert('Thanks for coming in my Website, ' + name + '!');
           } else {
