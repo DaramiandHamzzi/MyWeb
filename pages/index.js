@@ -31,7 +31,7 @@ function HomePage() {
           background: 'orange',
           color: 'white'
         }}
-        onClick={() => alert('Hello there')}
+        onClick={() => alert('Hello! Welcome to my Website!')}
       >
         Welcome
       </button>
@@ -45,11 +45,11 @@ function HomePage() {
           marginTop: '2rem'
         }}
         onClick={() => {
-          let name = prompt("What's your name?");
+          let name = prompt("Please write your name here:");
           if (name) {
-            alert('Nice to meet you, ' + name + '!');
+            alert('Thanks for coming in my Website, ' + name + '!');
           } else {
-            alert('Nice to meet you, stranger');
+            alert('I don't like you! Go away!!!');
           }
         }}
       >
